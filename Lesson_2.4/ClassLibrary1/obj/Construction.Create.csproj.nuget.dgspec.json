@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\windo\\Source\\Repos\\Lesson_2.4\\Lesson_2.4\\Lesson_2.4\\Lesson_2.4.csproj": {}
+    "C:\\Users\\windo\\Source\\Repos\\Lesson_2.4\\Lesson_2.4\\ClassLibrary1\\Construction.Create.csproj": {}
   },
   "projects": {
-    "C:\\Users\\windo\\Source\\Repos\\Lesson_2.4\\Lesson_2.4\\Lesson_2.4\\Lesson_2.4.csproj": {
+    "C:\\Users\\windo\\Source\\Repos\\Lesson_2.4\\Lesson_2.4\\ClassLibrary1\\Construction.Create.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\windo\\Source\\Repos\\Lesson_2.4\\Lesson_2.4\\Lesson_2.4\\Lesson_2.4.csproj",
-        "projectName": "Lesson_2.4",
-        "projectPath": "C:\\Users\\windo\\Source\\Repos\\Lesson_2.4\\Lesson_2.4\\Lesson_2.4\\Lesson_2.4.csproj",
+        "projectUniqueName": "C:\\Users\\windo\\Source\\Repos\\Lesson_2.4\\Lesson_2.4\\ClassLibrary1\\Construction.Create.csproj",
+        "projectName": "Construction.Create",
+        "projectPath": "C:\\Users\\windo\\Source\\Repos\\Lesson_2.4\\Lesson_2.4\\ClassLibrary1\\Construction.Create.csproj",
         "packagesPath": "C:\\Users\\windo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\windo\\Source\\Repos\\Lesson_2.4\\Lesson_2.4\\Lesson_2.4\\obj\\",
+        "outputPath": "C:\\Users\\windo\\Source\\Repos\\Lesson_2.4\\Lesson_2.4\\ClassLibrary1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\windo\\AppData\\Roaming\\NuGet\\NuGet.Config",
