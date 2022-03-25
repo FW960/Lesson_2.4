@@ -5,7 +5,12 @@
       "ProjectGuid": "bbb8585e-4432-4662-8b0f-cd64540273c7",
       "DisplayName": "Lesson_2.4",
       "ColorIndex": 0
+    },
+    "45bf53d8-be84-4845-8e30-15ce416372b7": {
+      "ProjectGuid": "45bf53d8-be84-4845-8e30-15ce416372b7",
+      "DisplayName": "Construction.Create",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }

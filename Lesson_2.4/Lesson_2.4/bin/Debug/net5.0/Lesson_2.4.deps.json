@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v5.0": {
       "Lesson_2.4/1.0.0": {
+        "dependencies": {
+          "Construction.Create": "1.0.0"
+        },
         "runtime": {
           "Lesson_2.4.dll": {}
+        }
+      },
+      "Construction.Create/1.0.0": {
+        "runtime": {
+          "Construction.Create.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Lesson_2.4/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Construction.Create/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

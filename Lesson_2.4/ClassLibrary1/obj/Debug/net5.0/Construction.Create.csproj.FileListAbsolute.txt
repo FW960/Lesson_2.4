@@ -1,0 +1,12 @@
+C:\Users\windo\source\repos\Lesson_2.4\Lesson_2.4\ClassLibrary1\bin\Debug\net5.0\Construction.Create.deps.json
+C:\Users\windo\source\repos\Lesson_2.4\Lesson_2.4\ClassLibrary1\bin\Debug\net5.0\Construction.Create.dll
+C:\Users\windo\source\repos\Lesson_2.4\Lesson_2.4\ClassLibrary1\bin\Debug\net5.0\ref\Construction.Create.dll
+C:\Users\windo\source\repos\Lesson_2.4\Lesson_2.4\ClassLibrary1\bin\Debug\net5.0\Construction.Create.pdb
+C:\Users\windo\source\repos\Lesson_2.4\Lesson_2.4\ClassLibrary1\obj\Debug\net5.0\Construction.Create.csproj.AssemblyReference.cache
+C:\Users\windo\source\repos\Lesson_2.4\Lesson_2.4\ClassLibrary1\obj\Debug\net5.0\Construction.Create.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\windo\source\repos\Lesson_2.4\Lesson_2.4\ClassLibrary1\obj\Debug\net5.0\Construction.Create.AssemblyInfoInputs.cache
+C:\Users\windo\source\repos\Lesson_2.4\Lesson_2.4\ClassLibrary1\obj\Debug\net5.0\Construction.Create.AssemblyInfo.cs
+C:\Users\windo\source\repos\Lesson_2.4\Lesson_2.4\ClassLibrary1\obj\Debug\net5.0\Construction.Create.csproj.CoreCompileInputs.cache
+C:\Users\windo\source\repos\Lesson_2.4\Lesson_2.4\ClassLibrary1\obj\Debug\net5.0\Construction.Create.dll
+C:\Users\windo\source\repos\Lesson_2.4\Lesson_2.4\ClassLibrary1\obj\Debug\net5.0\ref\Construction.Create.dll
+C:\Users\windo\source\repos\Lesson_2.4\Lesson_2.4\ClassLibrary1\obj\Debug\net5.0\Construction.Create.pdb

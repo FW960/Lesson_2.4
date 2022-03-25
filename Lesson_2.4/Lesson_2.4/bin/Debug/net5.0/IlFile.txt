@@ -1,0 +1,615 @@
+
+//  Microsoft (R) .NET Framework IL Disassembler.  Version 4.8.3928.0
+
+
+
+
+// Metadata version: v4.0.30319
+.assembly extern System.Runtime
+{
+  .publickeytoken = (B0 3F 5F 7F 11 D5 0A 3A )                         // .?_....:
+  .ver 5:0:0:0
+}
+.assembly extern Construction.Create
+{
+  .ver 1:0:0:0
+}
+.assembly extern System.Collections
+{
+  .publickeytoken = (B0 3F 5F 7F 11 D5 0A 3A )                         // .?_....:
+  .ver 5:0:0:0
+}
+.assembly extern System.Console
+{
+  .publickeytoken = (B0 3F 5F 7F 11 D5 0A 3A )                         // .?_....:
+  .ver 5:0:0:0
+}
+.assembly 'Lesson_2.4'
+{
+  .custom instance void [System.Runtime]System.Runtime.CompilerServices.CompilationRelaxationsAttribute::.ctor(int32) = ( 01 00 08 00 00 00 00 00 ) 
+  .custom instance void [System.Runtime]System.Runtime.CompilerServices.RuntimeCompatibilityAttribute::.ctor() = ( 01 00 01 00 54 02 16 57 72 61 70 4E 6F 6E 45 78   // ....T..WrapNonEx
+                                                                                                                   63 65 70 74 69 6F 6E 54 68 72 6F 77 73 01 )       // ceptionThrows.
+
+  // --- Следующий настраиваемый атрибут добавлен автоматически, не следует отменять преобразование в комментарий -------
+  //  .custom instance void [System.Runtime]System.Diagnostics.DebuggableAttribute::.ctor(valuetype [System.Runtime]System.Diagnostics.DebuggableAttribute/DebuggingModes) = ( 01 00 07 01 00 00 00 00 ) 
+
+  .custom instance void [System.Runtime]System.Runtime.Versioning.TargetFrameworkAttribute::.ctor(string) = ( 01 00 18 2E 4E 45 54 43 6F 72 65 41 70 70 2C 56   // ....NETCoreApp,V
+                                                                                                              65 72 73 69 6F 6E 3D 76 35 2E 30 01 00 54 0E 14   // ersion=v5.0..T..
+                                                                                                              46 72 61 6D 65 77 6F 72 6B 44 69 73 70 6C 61 79   // FrameworkDisplay
+                                                                                                              4E 61 6D 65 00 )                                  // Name.
+  .custom instance void [System.Runtime]System.Reflection.AssemblyCompanyAttribute::.ctor(string) = ( 01 00 0A 4C 65 73 73 6F 6E 5F 32 2E 34 00 00 )    // ...Lesson_2.4..
+  .custom instance void [System.Runtime]System.Reflection.AssemblyConfigurationAttribute::.ctor(string) = ( 01 00 05 44 65 62 75 67 00 00 )                   // ...Debug..
+  .custom instance void [System.Runtime]System.Reflection.AssemblyFileVersionAttribute::.ctor(string) = ( 01 00 07 31 2E 30 2E 30 2E 30 00 00 )             // ...1.0.0.0..
+  .custom instance void [System.Runtime]System.Reflection.AssemblyInformationalVersionAttribute::.ctor(string) = ( 01 00 05 31 2E 30 2E 30 00 00 )                   // ...1.0.0..
+  .custom instance void [System.Runtime]System.Reflection.AssemblyProductAttribute::.ctor(string) = ( 01 00 0A 4C 65 73 73 6F 6E 5F 32 2E 34 00 00 )    // ...Lesson_2.4..
+  .custom instance void [System.Runtime]System.Reflection.AssemblyTitleAttribute::.ctor(string) = ( 01 00 0A 4C 65 73 73 6F 6E 5F 32 2E 34 00 00 )    // ...Lesson_2.4..
+  .hash algorithm 0x00008004
+  .ver 1:0:0:0
+}
+.module 'Lesson_2.4.dll'
+// MVID: {8518266A-EDDC-4E41-BA0B-3963918D1245}
+.imagebase 0x00400000
+.file alignment 0x00000200
+.stackreserve 0x00100000
+.subsystem 0x0003       // WINDOWS_CUI
+.corflags 0x00000001    //  ILONLY
+// Image base: 0x06790000
+
+
+// =============== CLASS MEMBERS DECLARATION ===================
+
+.class private auto ansi beforefieldinit Lesson_2._4.Program
+       extends [System.Runtime]System.Object
+{
+  .method private hidebysig static void  Main(string[] args) cil managed
+  {
+    .entrypoint
+    // Размер кода:       804 (0x324)
+    .maxstack  7
+    .locals init (int32 V_0,
+             class [Construction.Create]Construction.Creat[] V_1,
+             class [System.Collections]System.Collections.Generic.Dictionary`2<int32,class [Construction.Create]Construction.Creat> V_2,
+             string V_3,
+             int32 V_4,
+             string[] V_5,
+             bool V_6,
+             string V_7,
+             string V_8,
+             int32 V_9,
+             class [Construction.Create]Construction.Creat V_10,
+             bool V_11,
+             string V_12,
+             int32 V_13,
+             string[] V_14,
+             class [Construction.Create]Construction.Creat V_15,
+             int32 V_16,
+             bool V_17)
+    IL_0000:  nop
+    IL_0001:  ldstr      bytearray (12 04 32 04 35 04 34 04 38 04 42 04 35 04 20 00   // ..2.5.4.8.B.5. .
+                                    3A 04 3E 04 3B 04 38 04 47 04 35 04 41 04 42 04   // :.>.;.8.G.5.A.B.
+                                    32 04 3E 04 20 00 37 04 34 04 30 04 3D 04 38 04   // 2.>. .7.4.0.=.8.
+                                    39 04 2E 00 20 00 17 04 3D 04 30 04 47 04 35 04   // 9... ...=.0.G.5.
+                                    3D 04 38 04 35 04 20 00 3F 04 3E 04 20 00 43 04   // =.8.5. .?.>. .C.
+                                    3C 04 3E 04 3B 04 47 04 30 04 3D 04 38 04 4E 04   // <.>.;.G.0.=.8.N.
+                                    20 00 35 00 )                                     //  .5.
+    IL_0006:  call       void [System.Console]System.Console::WriteLine(string)
+    IL_000b:  nop
+    IL_000c:  ldc.i4.5
+    IL_000d:  stloc.0
+    .try
+    {
+      IL_000e:  nop
+      IL_000f:  call       string [System.Console]System.Console::ReadLine()
+      IL_0014:  call       int32 [System.Runtime]System.Convert::ToInt32(string)
+      IL_0019:  stloc.0
+      IL_001a:  nop
+      IL_001b:  leave.s    IL_002d
+
+    }  // end .try
+    catch [System.Runtime]System.Object 
+    {
+      IL_001d:  pop
+      IL_001e:  nop
+      IL_001f:  ldstr      bytearray (12 04 32 04 35 04 34 04 35 04 3D 04 3E 04 20 00   // ..2.5.4.5.=.>. .
+                                      3F 04 30 04 40 04 30 04 3C 04 35 04 42 04 40 04   // ?.0.@.0.<.5.B.@.
+                                      20 00 3F 04 3E 04 20 00 43 04 3C 04 3E 04 3B 04   //  .?.>. .C.<.>.;.
+                                      47 04 30 04 3D 04 38 04 4E 04 2E 00 )             // G.0.=.8.N...
+      IL_0024:  call       void [System.Console]System.Console::WriteLine(string)
+      IL_0029:  nop
+      IL_002a:  nop
+      IL_002b:  leave.s    IL_002d
+
+    }  // end handler
+    IL_002d:  ldloc.0
+    IL_002e:  newarr     [Construction.Create]Construction.Creat
+    IL_0033:  stloc.1
+    IL_0034:  ldstr      bytearray (12 04 32 04 35 04 34 04 38 04 42 04 35 04 20 00   // ..2.5.4.8.B.5. .
+                                    3F 04 30 04 40 04 30 04 3C 04 35 04 42 04 40 04   // ?.0.@.0.<.5.B.@.
+                                    4B 04 20 00 37 04 34 04 30 04 3D 04 38 04 4F 04   // K. .7.4.0.=.8.O.
+                                    20 00 47 04 35 04 40 04 35 04 37 04 20 00 3F 04   //  .G.5.@.5.7. .?.
+                                    40 04 3E 04 31 04 35 04 3B 04 20 00 32 04 20 00   // @.>.1.5.;. .2. .
+                                    44 04 3E 04 40 04 3C 04 30 04 42 04 35 04 3A 00   // D.>.@.<.0.B.5.:.
+                                    0D 00 0A 00 27 00 12 04 4B 04 41 04 3E 04 42 04   // ....'...K.A.>.B.
+                                    30 04 27 00 20 00 27 00 1A 04 3E 04 3B 04 38 04   // 0.'. .'...>.;.8.
+                                    47 04 35 04 41 04 42 04 32 04 3E 04 20 00 4D 04   // G.5.A.B.2.>. .M.
+                                    42 04 30 04 36 04 35 04 39 04 27 00 20 00 27 00   // B.0.6.5.9.'. .'.
+                                    1A 04 3E 04 3B 04 38 04 47 04 35 04 41 04 42 04   // ..>.;.8.G.5.A.B.
+                                    32 04 3E 04 20 00 3F 04 3E 04 34 04 4A 04 35 04   // 2.>. .?.>.4.J.5.
+                                    37 04 34 04 3E 04 32 04 27 00 20 00 27 00 1A 04   // 7.4.>.2.'. .'...
+                                    3E 04 3B 04 38 04 47 04 35 04 41 04 42 04 32 04   // >.;.8.G.5.A.B.2.
+                                    3E 04 20 00 3A 04 32 04 30 04 40 04 42 04 38 04   // >. .:.2.0.@.B.8.
+                                    40 04 27 00 )                                     // @.'.
+    IL_0039:  call       void [System.Console]System.Console::WriteLine(string)
+    IL_003e:  nop
+    IL_003f:  call       void [System.Console]System.Console::WriteLine()
+    IL_0044:  nop
+    IL_0045:  ldstr      bytearray (17 04 34 04 30 04 3D 04 38 04 35 04 20 00 34 04   // ..4.0.=.8.5. .4.
+                                    3E 04 3B 04 36 04 3D 04 3E 04 20 00 31 04 4B 04   // >.;.6.=.>. .1.K.
+                                    42 04 4C 04 20 00 45 04 3E 04 42 04 4F 04 20 00   // B.L. .E.>.B.O. .
+                                    31 04 4B 04 20 00 33 00 20 00 3C 04 35 04 42 04   // 1.K. .3. .<.5.B.
+                                    40 04 30 04 20 00 32 04 20 00 32 04 4B 04 41 04   // @.0. .2. .2.K.A.
+                                    3E 04 42 04 43 04 2E 00 )                         // >.B.C...
+    IL_004a:  call       void [System.Console]System.Console::WriteLine(string)
+    IL_004f:  nop
+    IL_0050:  ldstr      bytearray (17 04 34 04 30 04 3D 04 38 04 35 04 20 00 34 04   // ..4.0.=.8.5. .4.
+                                    3E 04 3B 04 36 04 3D 04 3E 04 20 00 41 04 3E 04   // >.;.6.=.>. .A.>.
+                                    34 04 35 04 40 04 36 04 30 04 42 04 4C 04 20 00   // 4.5.@.6.0.B.L. .
+                                    45 04 3E 04 42 04 4F 04 20 00 31 04 4B 04 20 00   // E.>.B.O. .1.K. .
+                                    3E 04 34 04 38 04 3D 04 20 00 4D 04 42 04 30 04   // >.4.8.=. .M.B.0.
+                                    36 04 2E 00 )                                     // 6...
+    IL_0055:  call       void [System.Console]System.Console::WriteLine(string)
+    IL_005a:  nop
+    IL_005b:  ldstr      bytearray (12 04 4B 04 41 04 3E 04 42 04 30 04 20 00 3E 04   // ..K.A.>.B.0. .>.
+                                    34 04 3D 04 3E 04 33 04 3E 04 20 00 4D 04 42 04   // 4.=.>.3.>. .M.B.
+                                    30 04 36 04 30 04 20 00 3D 04 35 04 20 00 3C 04   // 0.6.0. .=.5. .<.
+                                    3E 04 36 04 35 04 42 04 20 00 31 04 4B 04 42 04   // >.6.5.B. .1.K.B.
+                                    4C 04 20 00 3D 04 38 04 36 04 35 04 20 00 33 00   // L. .=.8.6.5. .3.
+                                    45 04 20 00 3C 04 35 04 42 04 40 04 3E 04 32 04   // E. .<.5.B.@.>.2.
+                                    2E 00 )                                           // ..
+    IL_0060:  call       void [System.Console]System.Console::WriteLine(string)
+    IL_0065:  nop
+    IL_0066:  newobj     instance void class [System.Collections]System.Collections.Generic.Dictionary`2<int32,class [Construction.Create]Construction.Creat>::.ctor()
+    IL_006b:  stloc.2
+    IL_006c:  ldc.i4.0
+    IL_006d:  stloc.s    V_4
+    IL_006f:  br.s       IL_00cf
+
+    IL_0071:  nop
+    .try
+    {
+      IL_0072:  nop
+      IL_0073:  call       string [System.Console]System.Console::ReadLine()
+      IL_0078:  ldc.i4.s   32
+      IL_007a:  ldc.i4.0
+      IL_007b:  callvirt   instance string[] [System.Runtime]System.String::Split(char,
+                                                                                  valuetype [System.Runtime]System.StringSplitOptions)
+      IL_0080:  stloc.s    V_5
+      IL_0082:  ldloc.1
+      IL_0083:  ldloc.s    V_4
+      IL_0085:  ldloc.s    V_5
+      IL_0087:  ldc.i4.0
+      IL_0088:  ldelem.ref
+      IL_0089:  call       int32 [System.Runtime]System.Convert::ToInt32(string)
+      IL_008e:  ldloc.s    V_5
+      IL_0090:  ldc.i4.1
+      IL_0091:  ldelem.ref
+      IL_0092:  call       int32 [System.Runtime]System.Convert::ToInt32(string)
+      IL_0097:  ldloc.s    V_5
+      IL_0099:  ldc.i4.2
+      IL_009a:  ldelem.ref
+      IL_009b:  call       int32 [System.Runtime]System.Convert::ToInt32(string)
+      IL_00a0:  ldloc.s    V_5
+      IL_00a2:  ldc.i4.3
+      IL_00a3:  ldelem.ref
+      IL_00a4:  call       int32 [System.Runtime]System.Convert::ToInt32(string)
+      IL_00a9:  call       class [Construction.Create]Construction.Creat [Construction.Create]Construction.Creat::CreateBuild(int32,
+                                                                                                                              int32,
+                                                                                                                              int32,
+                                                                                                                              int32)
+      IL_00ae:  stelem.ref
+      IL_00af:  ldloc.2
+      IL_00b0:  ldc.i4.0
+      IL_00b1:  ldloc.1
+      IL_00b2:  ldloc.s    V_4
+      IL_00b4:  ldelem.ref
+      IL_00b5:  callvirt   instance void class [System.Collections]System.Collections.Generic.Dictionary`2<int32,class [Construction.Create]Construction.Creat>::Add(!0,
+                                                                                                                                                                     !1)
+      IL_00ba:  nop
+      IL_00bb:  nop
+      IL_00bc:  leave.s    IL_00c8
+
+    }  // end .try
+    catch [System.Runtime]System.Object 
+    {
+      IL_00be:  pop
+      IL_00bf:  nop
+      IL_00c0:  ldloc.s    V_4
+      IL_00c2:  ldc.i4.1
+      IL_00c3:  sub
+      IL_00c4:  stloc.s    V_4
+      IL_00c6:  leave.s    IL_00c9
+
+    }  // end handler
+    IL_00c8:  nop
+    IL_00c9:  ldloc.s    V_4
+    IL_00cb:  ldc.i4.1
+    IL_00cc:  add
+    IL_00cd:  stloc.s    V_4
+    IL_00cf:  ldloc.s    V_4
+    IL_00d1:  ldloc.1
+    IL_00d2:  ldlen
+    IL_00d3:  conv.i4
+    IL_00d4:  clt
+    IL_00d6:  stloc.s    V_6
+    IL_00d8:  ldloc.s    V_6
+    IL_00da:  brtrue.s   IL_0071
+
+    IL_00dc:  call       void [System.Console]System.Console::Clear()
+    IL_00e1:  nop
+    IL_00e2:  ldstr      bytearray (14 04 3B 04 4F 04 20 00 42 04 3E 04 33 04 3E 04   // ..;.O. .B.>.3.>.
+                                    20 00 47 04 42 04 3E 04 31 04 4B 04 20 00 3F 04   //  .G.B.>.1.K. .?.
+                                    3E 04 41 04 3C 04 3E 04 42 04 40 04 35 04 42 04   // >.A.<.>.B.@.5.B.
+                                    4C 04 20 00 45 04 30 04 40 04 30 04 3A 04 42 04   // L. .E.0.@.0.:.B.
+                                    35 04 40 04 38 04 41 04 42 04 38 04 3A 04 38 04   // 5.@.8.A.B.8.:.8.
+                                    20 00 37 04 34 04 30 04 3D 04 38 04 4F 04 20 00   //  .7.4.0.=.8.O. .
+                                    32 04 32 04 35 04 34 04 38 04 42 04 35 04 20 00   // 2.2.5.4.8.B.5. .
+                                    27 00 1F 04 3E 04 41 04 3C 04 3E 04 42 04 40 04   // '...>.A.<.>.B.@.
+                                    35 04 42 04 4C 04 27 00 2E 00 )                   // 5.B.L.'...
+    IL_00e7:  call       void [System.Console]System.Console::WriteLine(string)
+    IL_00ec:  nop
+    IL_00ed:  ldstr      bytearray (14 04 3B 04 4F 04 20 00 42 04 3E 04 33 04 3E 04   // ..;.O. .B.>.3.>.
+                                    20 00 47 04 42 04 3E 04 31 04 4B 04 20 00 41 04   //  .G.B.>.1.K. .A.
+                                    3D 04 35 04 41 04 42 04 38 04 20 00 37 04 34 04   // =.5.A.B.8. .7.4.
+                                    30 04 3D 04 38 04 35 04 20 00 32 04 32 04 35 04   // 0.=.8.5. .2.2.5.
+                                    34 04 38 04 42 04 35 04 20 00 27 00 21 04 3D 04   // 4.8.B.5. .'.!.=.
+                                    35 04 41 04 42 04 38 04 27 00 2E 00 )             // 5.A.B.8.'...
+    IL_00f2:  call       void [System.Console]System.Console::WriteLine(string)
+    IL_00f7:  nop
+    IL_00f8:  ldstr      bytearray (14 04 3B 04 4F 04 20 00 42 04 3E 04 33 04 3E 04   // ..;.O. .B.>.3.>.
+                                    20 00 47 04 42 04 3E 04 31 04 4B 04 20 00 3F 04   //  .G.B.>.1.K. .?.
+                                    3E 04 41 04 42 04 40 04 3E 04 38 04 42 04 4C 04   // >.A.B.@.>.8.B.L.
+                                    20 00 37 04 34 04 30 04 3D 04 38 04 35 04 20 00   //  .7.4.0.=.8.5. .
+                                    32 04 32 04 35 04 34 04 38 04 42 04 35 04 20 00   // 2.2.5.4.8.B.5. .
+                                    27 00 1F 04 3E 04 41 04 42 04 40 04 3E 04 38 04   // '...>.A.B.@.>.8.
+                                    42 04 4C 04 27 00 2E 00 )                         // B.L.'...
+    IL_00fd:  call       void [System.Console]System.Console::WriteLine(string)
+    IL_0102:  nop
+    IL_0103:  ldstr      bytearray (14 04 3B 04 4F 04 20 00 32 04 4B 04 45 04 3E 04   // ..;.O. .2.K.E.>.
+                                    34 04 30 04 20 00 32 04 32 04 35 04 34 04 38 04   // 4.0. .2.2.5.4.8.
+                                    42 04 35 04 20 00 27 00 12 04 4B 04 45 04 3E 04   // B.5. .'...K.E.>.
+                                    34 04 27 00 2E 00 )                               // 4.'...
+    IL_0108:  call       void [System.Console]System.Console::WriteLine(string)
+    IL_010d:  nop
+    IL_010e:  ldsfld     string [System.Runtime]System.String::Empty
+    IL_0113:  stloc.3
+    IL_0114:  nop
+    IL_0115:  call       string [System.Console]System.Console::ReadLine()
+    IL_011a:  stloc.3
+    IL_011b:  ldloc.3
+    IL_011c:  stloc.s    V_8
+    IL_011e:  ldloc.s    V_8
+    IL_0120:  stloc.s    V_7
+    IL_0122:  ldloc.s    V_7
+    IL_0124:  ldstr      bytearray (1F 04 3E 04 41 04 3C 04 3E 04 42 04 40 04 35 04   // ..>.A.<.>.B.@.5.
+                                    42 04 4C 04 )                                     // B.L.
+    IL_0129:  call       bool [System.Runtime]System.String::op_Equality(string,
+                                                                         string)
+    IL_012e:  brtrue.s   IL_018a
+
+    IL_0130:  ldloc.s    V_7
+    IL_0132:  ldstr      bytearray (21 04 3D 04 35 04 41 04 42 04 38 04 )             // !.=.5.A.B.8.
+    IL_0137:  call       bool [System.Runtime]System.String::op_Equality(string,
+                                                                         string)
+    IL_013c:  brtrue     IL_01ec
+
+    IL_0141:  ldloc.s    V_7
+    IL_0143:  ldstr      bytearray (1F 04 3E 04 41 04 42 04 40 04 3E 04 38 04 42 04   // ..>.A.B.@.>.8.B.
+                                    4C 04 )                                           // L.
+    IL_0148:  call       bool [System.Runtime]System.String::op_Equality(string,
+                                                                         string)
+    IL_014d:  brtrue     IL_0230
+
+    IL_0152:  ldloc.s    V_7
+    IL_0154:  ldstr      bytearray (1E 04 47 04 38 04 41 04 42 04 38 04 42 04 4C 04 ) // ..G.8.A.B.8.B.L.
+    IL_0159:  call       bool [System.Runtime]System.String::op_Equality(string,
+                                                                         string)
+    IL_015e:  brtrue     IL_02d4
+
+    IL_0163:  ldloc.s    V_7
+    IL_0165:  ldstr      bytearray (1F 04 3E 04 3C 04 3E 04 49 04 4C 04 )             // ..>.<.>.I.L.
+    IL_016a:  call       bool [System.Runtime]System.String::op_Equality(string,
+                                                                         string)
+    IL_016f:  brtrue     IL_02dc
+
+    IL_0174:  ldloc.s    V_7
+    IL_0176:  ldstr      bytearray (12 04 4B 04 45 04 3E 04 34 04 )                   // ..K.E.>.4.
+    IL_017b:  call       bool [System.Runtime]System.String::op_Equality(string,
+                                                                         string)
+    IL_0180:  brtrue     IL_02ff
+
+    IL_0185:  br         IL_0301
+
+    IL_018a:  ldstr      bytearray (12 04 32 04 35 04 34 04 38 04 42 04 35 04 20 00   // ..2.5.4.8.B.5. .
+                                    3D 04 3E 04 3C 04 35 04 40 04 20 00 37 04 34 04   // =.>.<.5.@. .7.4.
+                                    30 04 3D 04 38 04 4F 04 2E 00 )                   // 0.=.8.O...
+    IL_018f:  call       void [System.Console]System.Console::WriteLine(string)
+    IL_0194:  nop
+    .try
+    {
+      IL_0195:  nop
+      IL_0196:  call       string [System.Console]System.Console::ReadLine()
+      IL_019b:  call       int32 [System.Runtime]System.Convert::ToInt32(string)
+      IL_01a0:  stloc.s    V_9
+      IL_01a2:  ldloc.2
+      IL_01a3:  ldloc.s    V_9
+      IL_01a5:  ldloca.s   V_10
+      IL_01a7:  callvirt   instance bool class [System.Collections]System.Collections.Generic.Dictionary`2<int32,class [Construction.Create]Construction.Creat>::TryGetValue(!0,
+                                                                                                                                                                             !1&)
+      IL_01ac:  stloc.s    V_11
+      IL_01ae:  ldloc.s    V_11
+      IL_01b0:  brfalse.s  IL_01c7
+
+      IL_01b2:  nop
+      IL_01b3:  ldloc.s    V_10
+      IL_01b5:  call       string [Construction.Create]Construction.Creat::LookBuildingCharacteristic(class [Construction.Create]Construction.Creat)
+      IL_01ba:  stloc.s    V_12
+      IL_01bc:  ldloc.s    V_12
+      IL_01be:  call       void [System.Console]System.Console::WriteLine(string)
+      IL_01c3:  nop
+      IL_01c4:  nop
+      IL_01c5:  br.s       IL_01d4
+
+      IL_01c7:  nop
+      IL_01c8:  ldstr      bytearray (17 04 34 04 30 04 3D 04 38 04 4F 04 20 00 41 04   // ..4.0.=.8.O. .A.
+                                      20 00 34 04 30 04 3D 04 3D 04 4B 04 3C 04 20 00   //  .4.0.=.=.K.<. .
+                                      3D 04 3E 04 3C 04 35 04 40 04 3E 04 3C 04 20 00   // =.>.<.5.@.>.<. .
+                                      3D 04 35 04 20 00 41 04 43 04 49 04 35 04 41 04   // =.5. .A.C.I.5.A.
+                                      42 04 32 04 43 04 35 04 42 04 2E 00 )             // B.2.C.5.B...
+      IL_01cd:  call       void [System.Console]System.Console::WriteLine(string)
+      IL_01d2:  nop
+      IL_01d3:  nop
+      IL_01d4:  nop
+      IL_01d5:  leave.s    IL_01e7
+
+    }  // end .try
+    catch [System.Runtime]System.Object 
+    {
+      IL_01d7:  pop
+      IL_01d8:  nop
+      IL_01d9:  ldstr      bytearray (12 04 32 04 35 04 34 04 38 04 42 04 35 04 20 00   // ..2.5.4.8.B.5. .
+                                      3D 04 3E 04 3C 04 35 04 40 04 20 00 37 04 34 04   // =.>.<.5.@. .7.4.
+                                      30 04 3D 04 38 04 4F 04 20 00 32 04 20 00 3A 04   // 0.=.8.O. .2. .:.
+                                      3E 04 40 04 40 04 35 04 3A 04 42 04 3D 04 3E 04   // >.@.@.5.:.B.=.>.
+                                      3C 04 20 00 44 04 3E 04 40 04 3C 04 30 04 42 04   // <. .D.>.@.<.0.B.
+                                      35 04 2E 00 )                                     // 5...
+      IL_01de:  call       void [System.Console]System.Console::WriteLine(string)
+      IL_01e3:  nop
+      IL_01e4:  nop
+      IL_01e5:  leave.s    IL_01e7
+
+    }  // end handler
+    IL_01e7:  br         IL_030e
+
+    IL_01ec:  ldstr      bytearray (12 04 32 04 35 04 34 04 38 04 42 04 35 04 20 00   // ..2.5.4.8.B.5. .
+                                    3D 04 3E 04 3C 04 35 04 40 04 20 00 37 04 34 04   // =.>.<.5.@. .7.4.
+                                    30 04 3D 04 38 04 4F 04 20 00 34 04 3B 04 4F 04   // 0.=.8.O. .4.;.O.
+                                    20 00 41 04 3D 04 3E 04 41 04 30 04 2E 00 )       //  .A.=.>.A.0...
+    IL_01f1:  call       void [System.Console]System.Console::WriteLine(string)
+    IL_01f6:  nop
+    .try
+    {
+      IL_01f7:  nop
+      IL_01f8:  call       string [System.Console]System.Console::ReadLine()
+      IL_01fd:  call       int32 [System.Runtime]System.Convert::ToInt32(string)
+      IL_0202:  stloc.s    V_13
+      IL_0204:  ldloc.2
+      IL_0205:  ldloc.s    V_13
+      IL_0207:  callvirt   instance bool class [System.Collections]System.Collections.Generic.Dictionary`2<int32,class [Construction.Create]Construction.Creat>::Remove(!0)
+      IL_020c:  pop
+      IL_020d:  ldstr      bytearray (17 04 34 04 30 04 3D 04 38 04 35 04 20 00 41 04   // ..4.0.=.8.5. .A.
+                                      3D 04 35 04 41 04 35 04 3D 04 3E 04 2E 00 )       // =.5.A.5.=.>...
+      IL_0212:  call       void [System.Console]System.Console::WriteLine(string)
+      IL_0217:  nop
+      IL_0218:  nop
+      IL_0219:  leave.s    IL_022b
+
+    }  // end .try
+    catch [System.Runtime]System.Object 
+    {
+      IL_021b:  pop
+      IL_021c:  nop
+      IL_021d:  ldstr      bytearray (12 04 32 04 35 04 34 04 38 04 42 04 35 04 20 00   // ..2.5.4.8.B.5. .
+                                      3D 04 3E 04 3C 04 35 04 40 04 20 00 37 04 34 04   // =.>.<.5.@. .7.4.
+                                      30 04 3D 04 38 04 4F 04 20 00 32 04 20 00 3A 04   // 0.=.8.O. .2. .:.
+                                      3E 04 40 04 40 04 35 04 3A 04 42 04 3D 04 3E 04   // >.@.@.5.:.B.=.>.
+                                      3C 04 20 00 44 04 3E 04 40 04 3C 04 30 04 42 04   // <. .D.>.@.<.0.B.
+                                      35 04 2E 00 )                                     // 5...
+      IL_0222:  call       void [System.Console]System.Console::WriteLine(string)
+      IL_0227:  nop
+      IL_0228:  nop
+      IL_0229:  leave.s    IL_022b
+
+    }  // end handler
+    IL_022b:  br         IL_030e
+
+    IL_0230:  ldstr      bytearray (12 04 32 04 35 04 34 04 38 04 42 04 35 04 20 00   // ..2.5.4.8.B.5. .
+                                    3F 04 30 04 40 04 30 04 3C 04 35 04 42 04 40 04   // ?.0.@.0.<.5.B.@.
+                                    4B 04 20 00 37 04 34 04 30 04 3D 04 38 04 4F 04   // K. .7.4.0.=.8.O.
+                                    20 00 47 04 35 04 40 04 35 04 37 04 20 00 3F 04   //  .G.5.@.5.7. .?.
+                                    40 04 3E 04 31 04 35 04 3B 04 20 00 32 04 20 00   // @.>.1.5.;. .2. .
+                                    44 04 3E 04 40 04 3C 04 30 04 42 04 35 04 3A 00   // D.>.@.<.0.B.5.:.
+                                    0D 00 0A 00 27 00 12 04 4B 04 41 04 3E 04 42 04   // ....'...K.A.>.B.
+                                    30 04 27 00 20 00 27 00 1A 04 3E 04 3B 04 38 04   // 0.'. .'...>.;.8.
+                                    47 04 35 04 41 04 42 04 32 04 3E 04 20 00 4D 04   // G.5.A.B.2.>. .M.
+                                    42 04 30 04 36 04 35 04 39 04 27 00 20 00 27 00   // B.0.6.5.9.'. .'.
+                                    1A 04 3E 04 3B 04 38 04 47 04 35 04 41 04 42 04   // ..>.;.8.G.5.A.B.
+                                    32 04 3E 04 20 00 3F 04 3E 04 34 04 4A 04 35 04   // 2.>. .?.>.4.J.5.
+                                    37 04 34 04 3E 04 32 04 27 00 20 00 27 00 1A 04   // 7.4.>.2.'. .'...
+                                    3E 04 3B 04 38 04 47 04 35 04 41 04 42 04 32 04   // >.;.8.G.5.A.B.2.
+                                    3E 04 20 00 3A 04 32 04 30 04 40 04 42 04 38 04   // >. .:.2.0.@.B.8.
+                                    40 04 27 00 )                                     // @.'.
+    IL_0235:  call       void [System.Console]System.Console::WriteLine(string)
+    IL_023a:  nop
+    IL_023b:  call       void [System.Console]System.Console::WriteLine()
+    IL_0240:  nop
+    IL_0241:  ldstr      bytearray (17 04 34 04 30 04 3D 04 38 04 35 04 20 00 34 04   // ..4.0.=.8.5. .4.
+                                    3E 04 3B 04 36 04 3D 04 3E 04 20 00 31 04 4B 04   // >.;.6.=.>. .1.K.
+                                    42 04 4C 04 20 00 45 04 3E 04 42 04 4F 04 20 00   // B.L. .E.>.B.O. .
+                                    31 04 4B 04 20 00 33 00 20 00 3C 04 35 04 42 04   // 1.K. .3. .<.5.B.
+                                    40 04 30 04 20 00 32 04 20 00 32 04 4B 04 41 04   // @.0. .2. .2.K.A.
+                                    3E 04 42 04 43 04 2E 00 )                         // >.B.C...
+    IL_0246:  call       void [System.Console]System.Console::WriteLine(string)
+    IL_024b:  nop
+    IL_024c:  ldstr      bytearray (17 04 34 04 30 04 3D 04 38 04 35 04 20 00 34 04   // ..4.0.=.8.5. .4.
+                                    3E 04 3B 04 36 04 3D 04 3E 04 20 00 41 04 3E 04   // >.;.6.=.>. .A.>.
+                                    34 04 35 04 40 04 36 04 30 04 42 04 4C 04 20 00   // 4.5.@.6.0.B.L. .
+                                    45 04 3E 04 42 04 4F 04 20 00 31 04 4B 04 20 00   // E.>.B.O. .1.K. .
+                                    3E 04 34 04 38 04 3D 04 20 00 4D 04 42 04 30 04   // >.4.8.=. .M.B.0.
+                                    36 04 2E 00 )                                     // 6...
+    IL_0251:  call       void [System.Console]System.Console::WriteLine(string)
+    IL_0256:  nop
+    IL_0257:  ldstr      bytearray (12 04 4B 04 41 04 3E 04 42 04 30 04 20 00 3E 04   // ..K.A.>.B.0. .>.
+                                    34 04 3D 04 3E 04 33 04 3E 04 20 00 4D 04 42 04   // 4.=.>.3.>. .M.B.
+                                    30 04 36 04 30 04 20 00 3D 04 35 04 20 00 3C 04   // 0.6.0. .=.5. .<.
+                                    3E 04 36 04 35 04 42 04 20 00 31 04 4B 04 42 04   // >.6.5.B. .1.K.B.
+                                    4C 04 20 00 3D 04 38 04 36 04 35 04 20 00 33 00   // L. .=.8.6.5. .3.
+                                    45 04 20 00 3C 04 35 04 42 04 40 04 3E 04 32 04   // E. .<.5.B.@.>.2.
+                                    2E 00 )                                           // ..
+    IL_025c:  call       void [System.Console]System.Console::WriteLine(string)
+    IL_0261:  nop
+    .try
+    {
+      IL_0262:  nop
+      IL_0263:  call       string [System.Console]System.Console::ReadLine()
+      IL_0268:  ldc.i4.s   32
+      IL_026a:  ldc.i4.0
+      IL_026b:  callvirt   instance string[] [System.Runtime]System.String::Split(char,
+                                                                                  valuetype [System.Runtime]System.StringSplitOptions)
+      IL_0270:  stloc.s    V_14
+      IL_0272:  ldloc.s    V_14
+      IL_0274:  ldc.i4.0
+      IL_0275:  ldelem.ref
+      IL_0276:  call       int32 [System.Runtime]System.Convert::ToInt32(string)
+      IL_027b:  ldloc.s    V_14
+      IL_027d:  ldc.i4.1
+      IL_027e:  ldelem.ref
+      IL_027f:  call       int32 [System.Runtime]System.Convert::ToInt32(string)
+      IL_0284:  ldloc.s    V_14
+      IL_0286:  ldc.i4.2
+      IL_0287:  ldelem.ref
+      IL_0288:  call       int32 [System.Runtime]System.Convert::ToInt32(string)
+      IL_028d:  ldloc.s    V_14
+      IL_028f:  ldc.i4.3
+      IL_0290:  ldelem.ref
+      IL_0291:  call       int32 [System.Runtime]System.Convert::ToInt32(string)
+      IL_0296:  call       class [Construction.Create]Construction.Creat [Construction.Create]Construction.Creat::CreateBuild(int32,
+                                                                                                                              int32,
+                                                                                                                              int32,
+                                                                                                                              int32)
+      IL_029b:  stloc.s    V_15
+      IL_029d:  call       int32 [System.Console]System.Console::Read()
+      IL_02a2:  call       int32 [System.Runtime]System.Convert::ToInt32(int32)
+      IL_02a7:  stloc.s    V_16
+      IL_02a9:  ldloc.2
+      IL_02aa:  ldloc.s    V_16
+      IL_02ac:  ldloc.s    V_15
+      IL_02ae:  callvirt   instance void class [System.Collections]System.Collections.Generic.Dictionary`2<int32,class [Construction.Create]Construction.Creat>::Add(!0,
+                                                                                                                                                                     !1)
+      IL_02b3:  nop
+      IL_02b4:  nop
+      IL_02b5:  leave.s    IL_02c7
+
+    }  // end .try
+    catch [System.Runtime]System.Object 
+    {
+      IL_02b7:  pop
+      IL_02b8:  nop
+      IL_02b9:  ldstr      bytearray (12 04 32 04 35 04 34 04 38 04 42 04 35 04 20 00   // ..2.5.4.8.B.5. .
+                                      3F 04 30 04 40 04 30 04 3C 04 35 04 42 04 40 04   // ?.0.@.0.<.5.B.@.
+                                      4B 04 20 00 37 04 34 04 30 04 3D 04 38 04 4F 04   // K. .7.4.0.=.8.O.
+                                      20 00 32 04 20 00 3A 04 3E 04 40 04 40 04 35 04   //  .2. .:.>.@.@.5.
+                                      3A 04 42 04 3D 04 3E 04 3C 04 20 00 44 04 3E 04   // :.B.=.>.<. .D.>.
+                                      40 04 3C 04 30 04 42 04 35 04 2E 00 )             // @.<.0.B.5...
+      IL_02be:  call       void [System.Console]System.Console::WriteLine(string)
+      IL_02c3:  nop
+      IL_02c4:  nop
+      IL_02c5:  leave.s    IL_02c7
+
+    }  // end handler
+    IL_02c7:  ldstr      bytearray (17 04 34 04 30 04 3D 04 38 04 35 04 20 00 3F 04   // ..4.0.=.8.5. .?.
+                                    3E 04 41 04 42 04 40 04 3E 04 35 04 3D 04 3E 04   // >.A.B.@.>.5.=.>.
+                                    2E 00 )                                           // ..
+    IL_02cc:  call       void [System.Console]System.Console::WriteLine(string)
+    IL_02d1:  nop
+    IL_02d2:  br.s       IL_030e
+
+    IL_02d4:  call       void [System.Console]System.Console::Clear()
+    IL_02d9:  nop
+    IL_02da:  br.s       IL_030e
+
+    IL_02dc:  ldstr      bytearray (14 04 3B 04 4F 04 20 00 42 04 3E 04 33 04 3E 04   // ..;.O. .B.>.3.>.
+                                    20 00 47 04 42 04 3E 04 31 04 4B 04 20 00 3F 04   //  .G.B.>.1.K. .?.
+                                    3E 04 41 04 3C 04 3E 04 42 04 40 04 35 04 42 04   // >.A.<.>.B.@.5.B.
+                                    4C 04 20 00 45 04 30 04 40 04 30 04 3A 04 42 04   // L. .E.0.@.0.:.B.
+                                    35 04 40 04 38 04 41 04 42 04 38 04 3A 04 38 04   // 5.@.8.A.B.8.:.8.
+                                    20 00 37 04 34 04 30 04 3D 04 38 04 4F 04 20 00   //  .7.4.0.=.8.O. .
+                                    32 04 32 04 35 04 34 04 38 04 42 04 35 04 20 00   // 2.2.5.4.8.B.5. .
+                                    27 00 1F 04 3E 04 41 04 3C 04 3E 04 42 04 40 04   // '...>.A.<.>.B.@.
+                                    35 04 42 04 4C 04 27 00 2E 00 )                   // 5.B.L.'...
+    IL_02e1:  call       void [System.Console]System.Console::WriteLine(string)
+    IL_02e6:  nop
+    IL_02e7:  ldstr      bytearray (14 04 3B 04 4F 04 20 00 42 04 3E 04 33 04 3E 04   // ..;.O. .B.>.3.>.
+                                    20 00 47 04 42 04 3E 04 31 04 4B 04 20 00 41 04   //  .G.B.>.1.K. .A.
+                                    3D 04 35 04 41 04 42 04 38 04 20 00 37 04 34 04   // =.5.A.B.8. .7.4.
+                                    30 04 3D 04 38 04 35 04 20 00 32 04 32 04 35 04   // 0.=.8.5. .2.2.5.
+                                    34 04 38 04 42 04 35 04 20 00 27 00 21 04 3D 04   // 4.8.B.5. .'.!.=.
+                                    35 04 41 04 42 04 38 04 27 00 2E 00 )             // 5.A.B.8.'...
+    IL_02ec:  call       void [System.Console]System.Console::WriteLine(string)
+    IL_02f1:  nop
+    IL_02f2:  ldstr      bytearray (14 04 3B 04 4F 04 20 00 32 04 4B 04 45 04 3E 04   // ..;.O. .2.K.E.>.
+                                    34 04 30 04 20 00 32 04 32 04 35 04 34 04 38 04   // 4.0. .2.2.5.4.8.
+                                    42 04 35 04 20 00 27 00 12 04 4B 04 45 04 3E 04   // B.5. .'...K.E.>.
+                                    34 04 27 00 2E 00 )                               // 4.'...
+    IL_02f7:  call       void [System.Console]System.Console::WriteLine(string)
+    IL_02fc:  nop
+    IL_02fd:  br.s       IL_030e
+
+    IL_02ff:  br.s       IL_030e
+
+    IL_0301:  ldstr      bytearray (1A 04 3E 04 3C 04 30 04 3D 04 34 04 30 04 20 00   // ..>.<.0.=.4.0. .
+                                    3D 04 35 04 20 00 40 04 30 04 41 04 3F 04 3E 04   // =.5. .@.0.A.?.>.
+                                    37 04 3D 04 30 04 3D 04 3D 04 30 04 2E 00 )       // 7.=.0.=.=.0...
+    IL_0306:  call       void [System.Console]System.Console::WriteLine(string)
+    IL_030b:  nop
+    IL_030c:  br.s       IL_030e
+
+    IL_030e:  nop
+    IL_030f:  ldloc.3
+    IL_0310:  ldstr      bytearray (12 04 4B 04 45 04 3E 04 34 04 )                   // ..K.E.>.4.
+    IL_0315:  call       bool [System.Runtime]System.String::op_Inequality(string,
+                                                                           string)
+    IL_031a:  stloc.s    V_17
+    IL_031c:  ldloc.s    V_17
+    IL_031e:  brtrue     IL_0114
+
+    IL_0323:  ret
+  } // end of method Program::Main
+
+  .method public hidebysig specialname rtspecialname 
+          instance void  .ctor() cil managed
+  {
+    // Размер кода:       8 (0x8)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  call       instance void [System.Runtime]System.Object::.ctor()
+    IL_0006:  nop
+    IL_0007:  ret
+  } // end of method Program::.ctor
+
+} // end of class Lesson_2._4.Program
+
+
+// =============================================================
+
+// *********** ДИЗАССЕМБЛИРОВАНИЕ ЗАВЕРШЕНО ***********************
+// ВНИМАНИЕ: создан файл ресурсов Win32 C:\Users\windo\source\repos\Lesson_2.4\Lesson_2.4\Lesson_2.4\bin\Debug\net5.0\ILFile.res

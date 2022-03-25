@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "Construction.Create/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Construction.Create.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Construction.Create.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Construction.Create/1.0.0": {
+      "type": "project",
+      "path": "../ClassLibrary1/Construction.Create.csproj",
+      "msbuildProject": "../ClassLibrary1/Construction.Create.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "Construction.Create >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\windo\\.nuget\\packages\\": {}
@@ -13,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\windo\\source\\repos\\Lesson_2.4\\Lesson_2.4\\Lesson_2.4\\Lesson_2.4.csproj",
+      "projectUniqueName": "C:\\Users\\windo\\Source\\Repos\\Lesson_2.4\\Lesson_2.4\\Lesson_2.4\\Lesson_2.4.csproj",
       "projectName": "Lesson_2.4",
-      "projectPath": "C:\\Users\\windo\\source\\repos\\Lesson_2.4\\Lesson_2.4\\Lesson_2.4\\Lesson_2.4.csproj",
+      "projectPath": "C:\\Users\\windo\\Source\\Repos\\Lesson_2.4\\Lesson_2.4\\Lesson_2.4\\Lesson_2.4.csproj",
       "packagesPath": "C:\\Users\\windo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\windo\\source\\repos\\Lesson_2.4\\Lesson_2.4\\Lesson_2.4\\obj\\",
+      "outputPath": "C:\\Users\\windo\\Source\\Repos\\Lesson_2.4\\Lesson_2.4\\Lesson_2.4\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\windo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -33,7 +52,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\windo\\Source\\Repos\\Lesson_2.4\\Lesson_2.4\\ClassLibrary1\\Construction.Create.csproj": {
+              "projectPath": "C:\\Users\\windo\\Source\\Repos\\Lesson_2.4\\Lesson_2.4\\ClassLibrary1\\Construction.Create.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
