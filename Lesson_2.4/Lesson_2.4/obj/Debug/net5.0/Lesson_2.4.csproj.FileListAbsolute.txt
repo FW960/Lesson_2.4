@@ -14,3 +14,6 @@ C:\Users\windo\Source\Repos\Lesson_2.4\Lesson_2.4\Lesson_2.4\obj\Debug\net5.0\Le
 C:\Users\windo\Source\Repos\Lesson_2.4\Lesson_2.4\Lesson_2.4\obj\Debug\net5.0\ref\Lesson_2.4.dll
 C:\Users\windo\Source\Repos\Lesson_2.4\Lesson_2.4\Lesson_2.4\obj\Debug\net5.0\Lesson_2.4.pdb
 C:\Users\windo\Source\Repos\Lesson_2.4\Lesson_2.4\Lesson_2.4\obj\Debug\net5.0\Lesson_2.4.genruntimeconfig.cache
+C:\Users\windo\source\repos\Lesson_2.4\Lesson_2.4\Lesson_2.4\obj\Debug\net5.0\Lesson_2.4.csproj.CopyComplete
+C:\Users\windo\source\repos\Lesson_2.4\Lesson_2.4\Lesson_2.4\bin\Debug\net5.0\Construction.Create.dll
+C:\Users\windo\source\repos\Lesson_2.4\Lesson_2.4\Lesson_2.4\bin\Debug\net5.0\Construction.Create.pdb
